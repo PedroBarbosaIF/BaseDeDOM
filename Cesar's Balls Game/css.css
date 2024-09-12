@@ -1,0 +1,50 @@
+
+  body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #caixa {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;
+    border: 2px solid #000000;
+    overflow: hidden;
+  }
+  
+  #barra {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 43px;
+    background-color: #ff00ff;
+    border: 2px solid #000000;
+    cursor: pointer;
+  }
+  
+  .bola {
+    position: absolute;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(4, 138, 161);
+    border-radius: 50%;
+    border: 2px solid #010046;
+  }
+  
+  #botaoInciar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #eu{
+    margin-top: 100px;
+  }
+
+  
